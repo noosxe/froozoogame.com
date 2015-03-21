@@ -1,0 +1,302 @@
+
+
+
+
+
+.navbar.navbar-default .navbar-brand, .navbar.navbar-default.navbar-brand:hover, .navbar .navbar-brand:focus {
+    line-height: 70px;
+    padding: 0 22px;
+    font-size: 26px;
+    box-shadow: 0px -4px 0px #fec143 inset;
+    color: #444;
+}
+.navbar-default .navbar-nav>li>a{
+    transition: 0.2s all;
+}
+.navbar-default .navbar-nav>.features.active>a,
+.navbar-default .navbar-nav>.features>a:hover,
+.navbar-default .navbar-nav>.features>a:focus,
+.navbar-default .navbar-nav>.features>a.active {
+    box-shadow: 0px -70px 0px #00c138 inset;
+    color: white;
+}
+.navbar-default .navbar-nav>li.features>a {
+    box-shadow: 0px -4px 0px #00c138 inset;
+}
+.navbar-default .navbar-nav>.gameplay.active>a,
+.navbar-default .navbar-nav>.gameplay>a:hover,
+.navbar-default .navbar-nav>.gameplay>a:focus,
+.navbar-default .navbar-nav>.gameplay>a.active {
+    box-shadow: 0px -70px 0px #e11f41 inset;
+    color: white;
+}
+.navbar-default .navbar-nav>li.gameplay>a {
+    box-shadow: 0px -4px 0px #e11f41 inset;
+}
+.navbar-default .navbar-nav>.story.active>a,
+.navbar-default .navbar-nav>.story>a:hover,
+.navbar-default .navbar-nav>.story>a:focus,
+.navbar-default .navbar-nav>.story>a.active {
+    box-shadow: 0px -70px 0px #3f4a82 inset;
+    color: white;
+}
+
+.navbar-default .navbar-nav>.mission.active>a,
+.navbar-default .navbar-nav>.mission>a:hover,
+.navbar-default .navbar-nav>.mission>a:focus,
+.navbar-default .navbar-nav>.mission>a.active {
+    box-shadow: 0px -70px 0px #FFDE2F inset;
+    color: white;
+}
+
+.navbar-default .navbar-nav>li.story>a {
+    box-shadow: 0px -4px 0px #3f4a82 inset;
+}
+
+
+.navbar-default .navbar-nav>li.mission>a {
+    box-shadow: 0px -4px 0px #FFDE2F inset;
+}
+
+
+body{	
+    padding-top: 70px;
+    font-family: titilliumlight;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: titilliumregular;
+    font-weight: normal;
+}
+.page {
+    border-bottom: 1px solid #ddd;
+}
+
+.padding { 
+
+    padding: 80px 0;
+    
+}
+.page.gray {
+    background-color: #f1f1f1;
+}
+
+.page.dark {
+    background-color: #333333;
+    border-bottom: 1px solid #fec143;
+}
+.page.black {
+    background-color: #000;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.downloads {
+    min-height: 147px;
+    padding: 2.5% 0;
+}
+
+.downloads a {
+    transition: .3s all;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-right: -15px;
+}
+
+.downloads a img {
+    max-height: 70px;
+    width: 100%;
+}
+
+.downloads a:hover{
+    opacity: .9;
+}
+
+.artwork {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.artwork img.back {
+    width: 164%;
+    position: absolute;
+    left: 50%;
+    margin-left: -80%;
+    z-index: -1;
+}
+.artwork img.front{
+    width: 100%;
+    margin-bottom: -12.85%;
+} 
+@media (max-width: 768px) {
+    .navbar-default {
+
+    line-height: 30px;
+    font-size: 20px;
+    }
+}
+@media (min-width: 768px) {
+    body{
+        padding-top: 0;
+    }
+    .artwork {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .artwork img.back {
+        width: 1230px;
+        position: absolute;
+        left: 50%;
+        margin-left: -615px;
+    }
+
+
+
+}
+
+@media (min-width: 992px) {
+    body{
+        padding-top: 0;
+    }
+    .artwork {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .artwork img.back {
+        width: 1600px;
+        position: absolute;
+        left: 50%;
+        margin-left: -800px;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    body{
+        padding-top: 0;
+    }
+    
+    .artwork {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .artwork img.back {
+        width: 1920px;
+        position: absolute;
+        left: 50%;
+        margin-left: -960px;
+    }
+    
+}
+
+.img-circle{
+    background-color: #d7d2c5;
+}
+
+h1 {
+    font-family: titilliumblack;
+    font-weight: bold;
+    font-size: 70px;
+}
+h2 > b {
+    font-family: titilliumbold;
+}
+h1#features{
+    margin-top: -70px;
+    padding-top: 70px;
+    color: #00c138;
+}
+h1#gameplay{
+    margin-top: -70px;
+    padding-top: 70px;
+    color: #e11f41;
+}
+h1#story{
+    margin-top: -70px;
+    padding-top: 70px;
+    color: #3f4a82;
+}
+
+h1#mission{
+    margin-top: -70px;
+    padding-top: 70px;
+    color: #FFDE2F;
+}
+.navbar-dark {
+    background-color: transparent;
+    margin: 0;
+    box-shadow: none;
+    line-height: 82px;
+    font-size: 26px;
+}
+.navbar-dark .navbar-brand {
+    box-shadow: none;
+}
+.navbar-dark .navbar-brand:hover {}
+.navbar.navbar-dark .navbar-brand, .navbar.navbar-dark.navbar-brand:hover, .navbar.navbar-dark .navbar-brand:focus {
+    box-shadow: none;
+}
+
+.row.link {
+    cursor: pointer;
+}
+
+.row.link .img-circle {
+    transition: 0.4s all;
+}
+.row.link h2 {
+    transition: 0.4s all;
+}
+
+.row.link.strawberry.active .img-circle {
+    background-color: #FE4343;
+}
+.row.link.strawberry.active h2 {
+    color: #FE4343;
+}
+
+.row.link.banana.active .img-circle {
+    background-color: #FFDE2F;
+}
+.row.link.banana.active h2 {
+    color: #FFDE2F;
+}
+
+.row.link.blackberry.active .img-circle {
+    background-color: #4386FE;
+}
+.row.link.blackberry.active h2 {
+    color: #4386FE;
+}
+
+.row.link.watermellon.active .img-circle {
+    background-color: #77B83B;
+}
+.row.link.watermellon.active h2 {
+    color: #77B83B;
+}
+
+.sliderContainer {
+    overflow: hidden;
+    height: 600px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.sliderList {
+    width: 2000px;
+    height: 100%;
+    transition: 0.4s all;
+}
+
+.sliderPage {
+    width: 440px;
+    height: 100%;
+    float: left;
+}
